@@ -1,3 +1,40 @@
 body{
     background-color: tomato;
+    
 }   
+
+h2{
+    font-size: 30px;
+    color: black;
+    background-color: blueviolet;
+}
+
+h1{
+    font-size: 60px;
+    background-color: aqua;
+
+}
+
+ol{ font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+ul{
+    text-align: center;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.galeria{
+    width: 275px;
+    height: 400px;
+    object-fit: cover;
+    object-position: cover;
+
+}
+
+.capa{
+    width: 100%;
+}
