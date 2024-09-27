@@ -13,7 +13,13 @@ thead,tbody{
 
 }
 
-th,td{
+th{
+    border: 1px solid;
+    padding: 20px 30px;
+    text-align: center;
+    
+}
+td{
     border: 1px solid;
     padding: 8px 10px;
     text-align: center;
