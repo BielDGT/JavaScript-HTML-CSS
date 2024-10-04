@@ -14,10 +14,10 @@
                 <img src="./Assets/Fotos/logo.png" alt="logo" class="logo">
                 <nav class="menu-principal">
                     <ul>
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">SERVIÇOS</a></li>
-                        <li><a href="#">GALERIA</a></li>
-                        <li><a href="#">CONTATO</a></li>
+                        <li><a href="#pagina-home">HOME</a></li>
+                        <li><a href="#pagina-tabela">SERVIÇOS</a></li>
+                        <li><a href="#pagina-passeio">GALERIA</a></li>
+                        <li><a href="#contato">CONTATO</a></li>
                     </ul>
                 </nav>
             </div>
@@ -30,42 +30,74 @@
                 </div>
             </div>
         </section>
-
-        <section id="passeio">
-            <div class="conf">
-                <h2>Passeio</h2>
-                <a href="#">link</a>
-            </div>
-            <div class="conf_bloco">
-                <img src="./Assets/Fotos/foto1.png" alt="foto1" class="conf_fotos">
-                <figcaption>Ecoturismo</figcaption>
-
-                <img src="./Assets/Fotos/foto2.png" alt="foto2" class="conf_fotos">
-                <figcaption>Rafting</figcaption>
-            
-                <img src="./Assets/Fotos/foto3.png" alt="foto3" class="conf_fotos">
-                <figcaption>Pacote Aventura</figcaption>
-            </div>
-        </section>
-
-
     </header>
 
 
     <main>
+        <section id="pagina-passeio">
+            <div class="link">
+                <h2>Passeio</h2>
+                <a href="#">inicio da Pagina</a>
+            </div>
 
+            <div class="cards">
+                <figure class="imagem">
+                    <img src="./Assets/Fotos/foto1.png" alt="foto1">
+                    <figcaption>Ecoturismo</figcaption>
+                </figure>
+                <figure class="imagem">
+                    <img src="./Assets/Fotos/foto2.png" alt="foto2">
+                    <figcaption>Rafting</figcaption>
+                </figure>
+                <figure class="imagem">
+                    <img src="./Assets/Fotos/foto3.png" alt="foto3">
+                    <figcaption>Pacote Aventura</figcaption>
+                </figure>
+            </div>
+        </section>
 
+        <section id="pagina-tabela">
+            <div class="link">
+                <h2>Valores</h2>
+                <a href="#">inicio da Pagina</a>
+            </div>
 
-
-
-
+            <div class="tabela">
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Passeio</th>
+                            <th scope="col">Valores</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Canoagem</td>
+                            <td>R$60,00</td>
+                        </tr>
+                        <tr>
+                            <td>Passeio Radical</td>
+                            <td>R$80,00</td>
+                        </tr>
+                        <tr>
+                            <td>Trilha</td>
+                            <td>R$90,00</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="tfooter">Consulte na recepção os valores atualizados</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
     </main>
 
 
-    <footer>
-
-
+    <footer id="contato">
+        <div class="conf-rodape">
+                <img src="./Assets/Fotos/icone.png" alt="whatzap" class="whatzap">
+                <h3>Contato: (19)992124943</h3>
+        </div>
     </footer>
-
 </body>
 </html>

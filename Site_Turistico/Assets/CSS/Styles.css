@@ -76,35 +76,89 @@ h1{
 }
 
 
-
-#passeio{
-    background-color: whitesmoke;
+#pagina-passeio{
+    flex-direction: column;
+    background-color: #e2e4e3;
 }
 
-.conf{
+h2{
+    margin: 30px 0px;
+}
+
+.link{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    flex-direction:row;
 }
 
-.conf_bloco{
+.cards{
     display: flex;
-    justify-content: space-between;
-    flex-direction:row;
+    align-items: center;
+    justify-content: center;
 }
 
-.conf_fotos{
+.imagem:hover{
+    filter: grayscale(100%);
+}
+
+.imagem{
+    display: inline-block;
+    flex-direction: column;
+    margin: 0 20px;
+    transition: 0.3s ease;
+    margin-bottom: 60px;
+}
+
+.imagem img{
     width: 314px;
     height: 368px;
     border: 1px solid black;
 }
 
-figcaption{
-    width: 314px;
-    text-align: center;
-    border: 1px solid black;
+.imagem figcaption{
     background-color: #c95e10;
-    color: white;   
-    transition: 0.5s ease;
+    color: white;
+    text-align: center;
+}
+
+
+#pagina-tabela{
+    background-color:#f9ead8;
     
+}
+
+table,td,th{
+    border-collapse: collapse;
+    border:1px solid black;
+    letter-spacing: 1pix;
+    margin: auto;
+    text-align: center;
+    width: 40%;
+    background-color: #bcd3e9;
+    padding: 8px 10px;
+
+}
+
+th{
+    border: none; 
+}
+
+.tfooter{
+    padding: 30px 0px;
+}
+
+
+
+footer{
+    background-color: #833f00;
+}
+
+.conf-rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatzap{
+    width: 60px;
 }
