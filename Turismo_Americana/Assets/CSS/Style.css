@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Passero One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.logo{
+    width: 150px;
+}
+
+#pagina-home{
+    height: 650px;
+    background-image:url(../Fotos/Banner.png);
+    background-size: cover;
+}
+
+.menu-principal ul{
+    list-style: none;
+}
+
+.menu-principal ul li{
+    display: inline-block;
+}
+
+.menu-principal ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 5px 29px;
+    border:  1px solid transparent;
+    font-size: 32px;
+}
+
+.categoria{
+    padding: 200px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 48px;
+    color: black;
+    text-align: center;
+}
+
+#pagina-PontosTuristicos{
+    height: 750px;
+    flex-direction: column;
+    background-color: #e2e4e3;
+}
+
+h2{
+    padding: 30px;
+    font-size: 48px;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imagem{
+    display: inline-block;
+    flex-direction: column;
+    margin: 0 20px;
+    margin: 40px;
+    width: 367px;
+    height: 464px;
+}
+
+figcaption{
+    color: black;
+    text-align: center;
+    font-size: 48px;
+}
+
+
+#pagina-Parceiros{
+    background-color:#00c3ff75;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+footer{
+    height: 282px;
+    background-image: url(../Fotos/Rectangle\ 9.png);
+    background-size: cover;
+}
+
+h3{
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-weight:bold;
+    padding-top: 50px;
+}
+
+.conf-footer{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.IB{
+    margin: 30px;
+}
+
+.imagem2{
+    width: 50%;
+}
+
