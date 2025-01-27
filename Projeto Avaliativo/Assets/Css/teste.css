@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+img{
+    width: 100%;
+}
+
+header nav, .logo{
+   
+    background-color:tomato;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+ 
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.foto_produto{
+    width: 200px;
+}
